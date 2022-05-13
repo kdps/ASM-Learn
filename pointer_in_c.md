@@ -1,3 +1,39 @@
+### 기타
+
+```
+void overwrite(int *ref) 
+{ 
+  int book = 100;
+  ref = &book; 
+}     
+
+int main() 
+{
+  int i = 10;
+  int *cp = &i;
+  
+  overwrite(cp);
+  
+  printf("%d", *cp);
+  return 0;
+}
+```
+
+```
+결과값은 10이 나온다
+
+overwrite 함수의 cp는 cp 포인터의 복사본이므로 포인터를 전달하지 않으면 cp 값은 변경되지 않는다
+```
+
+### 복사
+
+&
+
+```
+int i = 10;
+int *cp = &i;
+```
+
 ### 함수
 
 A. int fn(); 
