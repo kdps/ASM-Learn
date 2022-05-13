@@ -1,5 +1,12 @@
 ### 기타
 
+A. int \**pt 
+
+int를 반환하는 이중 포인터
+
+
+B. 포인터 덮어쓰기
+
 ```
 void overwrite(int *ref) 
 { 
