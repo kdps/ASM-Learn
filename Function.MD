@@ -1,3 +1,6 @@
+> Reference : https://www.plantation-productions.com/Webster/www.artofasm.com/DOS/AoADosIndex.html
+
+
 > SEGMENT
 
 ```세그먼트의 시작```
